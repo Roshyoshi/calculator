@@ -58,11 +58,12 @@ body{
   background-color: rgb(185, 70, 28)
 }
 
-#_0{
+.zero{
   flex: 2 1 auto;
   width: 84px;
 }
-#dec{
+
+.dec{
   flex: 1 1 auto;
 }
 button{
