@@ -116,6 +116,7 @@ buttons.forEach((button) =>
         e.target.id === "*" ||
         e.target.id === "/")
     )
+    //asdf
       return;
     else if (
       isNaN(Number(e.target.id)) &&
@@ -125,8 +126,8 @@ buttons.forEach((button) =>
     else if (e.target.id === "=") {
       if (isNaN(expression[expression.length - 1])) return;
       let ans = String(evaluate(expression));
-      if (ans.length > 13) ans = Math.round(Number(ans).toExponential());
-      else ans = Number(ans);
+      if (ans.length > 13) ans = Number(ans).toExponential();
+      else ans = Number(ans); 
       output.textContent = ans;
       console.log(expression);
       return;
