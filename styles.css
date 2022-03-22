@@ -1,0 +1,65 @@
+body{
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#interface{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(0, 0, 0, 0.534);
+  padding: 8px;
+}
+#output{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: rgba(238, 238, 238, 0.911);
+  width: auto;
+  height: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 4px;
+  margin-bottom: 8px;
+  border: 2px solid rgba(0, 0, 0, 0.534);
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.795);
+  text-align: right;
+}
+#input{
+  display: flex;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  
+}
+.row{
+  display: flex;
+}
+.column button{
+  background-color: rgba(253, 253, 105, 0.384);
+}
+#c{
+  flex: 1;
+  background-color: rgb(252, 90, 31);
+  border-color: rgba(252, 90, 31, 0.123);
+}
+
+#_0{
+  flex: 2 1 auto;
+  width: 84px;
+}
+#dec{
+  flex: 1 1 auto;
+}
+button{
+  color: rgba(0, 0, 0, 0.795);
+  border-radius: 0px;
+  padding: 16px;
+  font-size: 24px;
+  border-width: 2px;
+}
